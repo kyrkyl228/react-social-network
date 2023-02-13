@@ -1,0 +1,19 @@
+.navigation{
+    grid-area: n;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    border-radius: 20px;
+}
+
+.link{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 8px 4px;
+    border-radius: 10px;
+}
+
+.link:hover{
+    transition: all 0.4s ease;
+    background-color: rgb(240, 240, 240);
+}

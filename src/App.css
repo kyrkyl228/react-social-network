@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+.page{
+    margin: 0 auto;
+    width: 1200px;
+    display: grid;
+    grid-template-areas: "n p";
+    grid-template-columns: 160px auto;
+    grid-column-gap: 10px;
+}
+
+.contentWrapper{
+    grid-area: p;
+    min-height: 100vh;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px;
+}

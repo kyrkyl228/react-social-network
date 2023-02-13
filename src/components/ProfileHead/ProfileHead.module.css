@@ -1,0 +1,56 @@
+.head{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: 400px;
+    background-image: url(../../images/backImg.jpg);
+    background-size: cover;
+}
+
+.cardWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.aboutCard{
+    display: flex;
+}
+
+.imageWrapper{
+    transform: translate(0, 15%);
+    display: block;
+    margin-top: auto;
+}
+
+.avatar{
+    box-shadow: -3px -3px 10px;
+    display: block;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.fillCard{
+    margin: auto 0 5px 5px;
+    padding: 5px;
+    width: 300px;
+    height: 100px;
+    background-color: rgba(240, 248, 255, 0.9);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.FName{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.Buttons{
+    display: flex;
+}
+
+

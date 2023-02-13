@@ -1,0 +1,19 @@
+.photoBlock{
+    height: auto;
+}
+
+.wrapper{
+    margin-top: 5px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Name{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.image{
+    width: 100%;
+}
